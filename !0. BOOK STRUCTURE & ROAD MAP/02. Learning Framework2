@@ -1,0 +1,114 @@
+Frappe: Zero to Hero
+A Community Open Source Book
+
+Part 0 — Before You Begin
+Orientation and prerequisites
+
+What is this book and how to use it
+Who this book is for
+Prerequisites checklist (what to install, what to know)
+How to get help (community forums, GitHub issues, Discord)
+
+
+Part 1 — Understanding Frappe (The Why)
+Mapped to: "Understand the why + Learn the basics + Comparisons"
+
+What is Frappe? The problem it solves
+How Frappe compares to other frameworks (Django, Laravel, etc.)
+Key concepts and terminology (DocType, Site, App, Bench, hooks, etc.)
+The Frappe ecosystem — ERPNext, Frappe Cloud, HRMS, etc.
+Advantages, limitations, and when NOT to use Frappe
+
+
+Part 2 — Setting Up Your Environment (Getting Hands-On Early)
+Mapped to: "Hands-on basics"
+
+Installing Frappe Bench (Linux, macOS, WSL on Windows)
+Understanding the Bench directory structure
+Creating your first site
+Starting and stopping the development server
+Common setup mistakes and how to fix them
+
+
+Part 3 — Frappe Framework Core (Backend / DocTypes)
+Mapped to: "Core concepts + FAQs + Common mistakes"
+
+Creating your first Frappe App
+Understanding DocTypes — what they are and how they work
+Field types and their use cases
+Controllers and Python scripting basics
+Client scripts (JavaScript on forms)
+Hooks — what they are and when to use them
+Permissions and roles
+FAQ: Most asked questions about DocTypes and the backend
+Pitfalls: Common mistakes beginners make with DocTypes
+
+
+Part 4 — Frappe UI & Frontend (Building Interfaces)
+Mapped to: "Core concepts + FAQs + Common mistakes"
+
+How Frappe's frontend works (desk, pages, forms)
+Introduction to Frappe UI components
+Building custom pages and workspaces
+Using Jinja templates for print formats and web pages
+Introduction to Frappe's Vue-based frontend (frappe-ui)
+FAQ: Most asked frontend questions
+Pitfalls: Common frontend mistakes
+
+
+Part 5 — Deployment & DevOps (Taking It to Production)
+Mapped to: "Core concepts + FAQs + Common mistakes"
+
+Production vs. development setup — what changes
+Deploying with Frappe Bench on a VPS (DigitalOcean, Hetzner, etc.)
+Setting up NGINX, SSL, and DNS
+Backups — how to set them up and restore them
+Managing updates and migrations
+Docker-based deployment (Frappe Docker)
+FAQ: Most asked deployment questions
+Pitfalls: Common deployment mistakes
+
+
+Part 6 — Advanced Concepts
+Mapped to: "Advanced concepts"
+
+Background jobs and the scheduler
+REST API and webhooks
+Custom reports (Query Report, Script Report)
+Multi-tenancy and managing multiple sites
+Writing tests for your Frappe app
+Performance optimization tips
+
+
+Part 7 — Applied Concepts / Real-World Projects
+Mapped to: "Applied concepts + Build something real"
+
+Project 1: Build a simple Task Manager app end-to-end
+Project 2: Build a Customer Portal with custom web pages
+Project 3: Deploy a production-ready app on a VPS
+Contributing your app to the Frappe ecosystem
+
+
+Part 8 — Contributing to the Book
+Community-first, open source spirit
+
+How to contribute chapters or corrections
+Writing style guide for contributors
+GitHub workflow for the book repo
+Roadmap — what chapters are still needed
+
+
+Appendices
+
+Glossary of Frappe/Bench terms
+Cheatsheet — common Bench CLI commands
+Cheatsheet — common Frappe Python utilities
+Useful community resources and links
+
+
+A few structural notes:
+
+Every chapter should end with a "Quick Recap" and a "Try It Yourself" exercise — this keeps it hands-on throughout.
+The FAQ and Pitfalls sections inside each part are the secret weapon — they're what make this book stand out from official docs.
+Part 7's projects are what turn readers from learners into practitioners. Don't skip these.
+Since it's Markdown on GitHub, each Part can be a folder with one .md file per chapter — easy for contributors to pick up individual chapters.
